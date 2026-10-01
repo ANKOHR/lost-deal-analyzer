@@ -1,0 +1,6 @@
+Test count: 25 passed (python -m pytest -q).
+Local implementation commit: 4404fd4e5dafaf04f60b9989e7489393c3fd805d
+Branch: main. This completion record is committed separately after the implementation.
+Measured installed CLI demo: 0.7763597 seconds, below the 5 second criterion.
+
+Built a local-only, CPU-only deterministic Python lda CLI with fixtures, run, report, reasons and audit commands. The pure core validates explicit opportunity outcomes and aggregates recorded loss reasons, exact integer opportunity values and supporting IDs. The 200-record synthetic set has independent hand-computed expectations and provenance labels; Markdown and JSON reports distinguish supplied real data from synthetic data and explicitly leave savings unmeasured. All 25 tests pass, covering exact ground truth, zero false positives, empty input, named errors, adversarial values, Unicode, long strings, changed fixture results and byte-identical reruns. README, local evidence and KOML lessons document operation, limitations and the two-week improvement hook. Real-use evidence and the final verdict remain pending that trial. No publication or external network calls were performed.
